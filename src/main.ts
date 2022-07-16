@@ -9,6 +9,6 @@ async function bootstrap() {
       whitelist: true, // removes unknown properties from the request body
     }),
   );
-  await app.listen(3000);
+  await app.listen(3333);
 }
 bootstrap();
